@@ -1,7 +1,7 @@
 FROM zsoltm/debian-armhf:jessie
 
 ENV PG_MAJOR 9.4
-#ENV LANG en_US.utf8
+ENV LANG en_US.UTF-8
 ENV PATH /usr/lib/postgresql/${PG_MAJOR}/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 ENV PGDATA /var/lib/postgresql/data
 
